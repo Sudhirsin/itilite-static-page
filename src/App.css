@@ -1,0 +1,173 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul:nth-child(2) {
+  margin-left: auto;
+}
+
+li {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  margin-top: 1.5px;
+}
+
+#dashboard {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+  margin-left: 60px;
+}
+
+#subHeading > li {
+  margin: 2% 10%;
+  font-size: 14px;
+}
+
+#main {
+  display: flex;
+}
+
+aside {
+  width: 20%;
+  height: 50vh;
+  padding: 0px 40px;
+  margin-left: 2%;
+}
+
+aside > div,
+aside > p {
+  margin: 15px 0;
+}
+
+main {
+  width: 75%;
+  height: 50vh;
+}
+
+#stops > span {
+  border: 1px solid gray;
+  padding: 7px;
+  font-size: 14px;
+  color: gray;
+}
+
+#stops > span:nth-child(2) {
+  border-left: 0px;
+}
+
+#stops > span:nth-child(1) {
+  color: tomato;
+  border-color: tomato;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#stops > span:nth-child(3) {
+  border-left: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card {
+  height: 16.5%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  width: 90%;
+  padding: 10px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card > div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card > div:nth-child(1) {
+  font-size: 15px;
+}
+
+.card > div:nth-child(2),
+div:nth-child(3),
+div:nth-child(4) {
+  font-size: 12px;
+  color: rgb(71, 69, 71);
+}
+
+.card > div:nth-child(4) {
+  margin-top: 8px;
+}
+
+.card > div > span:nth-child(3) {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.tomatoColor {
+  color: tomato;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, 19.5%);
+  background-color: #eff5f5;
+  font-size: 14px;
+  padding: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer > * {
+  font-size: 14px !important;
+  color: black !important;
+  background-color: #eff5f5 !important;
+  text-align: center;
+}
+
+footer > div {
+  transition: transform 0.2s;
+}
+
+footer > div > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer > div:hover {
+  transform: scale(1.2);
+  background-color: white !important;
+}
+
+.btn1 {
+  color: tomato;
+  background-color: white;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+
+.btn2 {
+  color: white;
+  background-color: tomato;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
